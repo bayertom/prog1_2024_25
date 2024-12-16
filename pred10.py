@@ -64,7 +64,7 @@ class Point2D:
     def getN():
         return Point2D.__n
 
-#No direc access to data members
+#No direct access to data members
 p5 = Point2D(5, 5)
 
 #Attribute x is not visible
