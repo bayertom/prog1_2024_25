@@ -107,8 +107,7 @@ class Point(GO):
     
     #Inicializator
     def __init__(self, color, style, x_ = 0, y_ = 0):
-        super().__color(color)
-        super().__style(style)
+        super().__init__(color, style)
         self.__x = x_
         self.__y = y_
         Point.__n = Point.__n + 1
