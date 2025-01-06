@@ -111,15 +111,15 @@ class Point(GO):
         super().__style(style)
         self.__x = x_
         self.__y = y_
-        Point2D.__n = Point2D.__n + 1
-        self.__id = Point2D.__n
+        Point.__n = Point.__n + 1
+        self.__id = Point.__n
         
     def print(self):
-        print('Amount of points: ', Point2D.__n)
+        print('Amount of points: ', Point.__n)
         print('id = ', self.__id, 'x = ', self.__x, ', y = ', self.__y)
 
     def getN():
-        return Point2D.__n
+        return Point.__n
     
     def getX(self):
         return self.__x
